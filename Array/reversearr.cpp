@@ -1,4 +1,4 @@
-#incude <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 void reversearr(int arr[], int n){  /* arr pass by ref */
