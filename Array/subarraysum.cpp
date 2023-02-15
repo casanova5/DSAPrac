@@ -46,8 +46,8 @@ int largestsumarr(int arr[], int n){
     
     if(curr_sum<0){
       curr_sum = 0;
-      max_sum = max(max_sum, curr_sum);
     }
+    max_sum = max(max_sum, curr_sum);
   }  
   return max_sum;
 }
